@@ -1,0 +1,19 @@
+@media screen and (max-width: 992px) {
+    .opciones:hover {
+        background-color: #648;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .opciones:after {
+        content: '';
+        display: block;
+        width: 0px;
+        height: 2px;
+        transition: width .3s;
+    }
+    .opciones:hover::after {
+        background-color: #fff;
+        width: 100%;
+    }
+}

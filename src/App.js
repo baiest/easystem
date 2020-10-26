@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Bienvenida from './components/bienvenida'
+import Navegacion from './components/navegacion'
 
 function App() {
   return (
     <div className="App">
-      <Bienvenida />
+      <Navegacion />
     </div>
   );
 }
