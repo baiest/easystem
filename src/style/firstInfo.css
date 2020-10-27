@@ -1,0 +1,25 @@
+@keyframes slidein {
+    from {
+        margin-top: -80%;
+        height: 300%;
+    }
+    to {
+        margin-bottom: 0%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cell {
+        display: inline-block;
+        animation-duration: 2s;
+        animation-name: slidein;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .cell {
+        animation-duration: 2s;
+        animation-name: slidein;
+    }
+}

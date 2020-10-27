@@ -1,0 +1,28 @@
+@keyframes second-slidein {
+    from {
+        margin-right: -80%;
+        width: -100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .secondCell {
+        display: inline-block;
+        /*
+        animation-duration: 2s;
+        animation-name: second-slidein;
+        */
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /*
+    .secondCell {
+        animation-duration: 2s;
+        animation-name: second-slidein;
+    }*/
+}
