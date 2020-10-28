@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import FirstInfo from './info/firstInfo'
 import SecondInfo from './info/secondInfo'
 import Formulario from './info/formulario'
-
+import logo from '../assets/logo.jpg'
 import '../style/secondInfo.css'
 
 class Principal extends Component{
@@ -10,7 +10,12 @@ class Principal extends Component{
         return(
             <div>
                 <FirstInfo/>
-                <div className ="row align-items-center secondCell">
+                <div className = "mt-4 mb-4">
+                    <span>
+                        <img src={logo} className = "rounded img-fluid"/>
+                    </span>
+                </div>
+                <div className ="row col align-items-center secondCell">
                     <div className = "col">    
                         <SecondInfo/>
                     </div>

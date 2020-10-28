@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../style/navegacion-style.css'
+import {Link } from 'react-router-dom'
 class Navegacion extends Component{
     constructor(){
         super();
@@ -11,10 +12,10 @@ class Navegacion extends Component{
         return(
             <div>
                 <nav
-                className ="navbar navbar-expand-lg navbar-dark"
-                style={{backgroundColor: '#548'}}
+                className ="p-3 navbar navbar-expand-lg navbar-dark"
+                style={{backgroundColor: '#572364'}}
                 >
-                    <a href="#" className = "navbar-brand">Easystem</a>
+                    <h1 className = "display-4 text-white">Easystem</h1>
                     <button className = "navbar-toggler" 
                     type = "button" 
                     data-toggle="collapse" 
@@ -25,9 +26,9 @@ class Navegacion extends Component{
                     <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className = "collapse navbar-collapse" id = "navbarToggler">
+                    <div className = "ml-4 pl-4 collapse navbar-collapse" id = "navbarToggler">
                         <ul className = "navbar-nav mr-auto mt-2 mt-lg-0">
-                            <a href="#" className = "nav-item nav-link opciones active">Inicio</a>
+                            <Link to="/hola" className = "nav-item nav-link opciones active">Inicio</Link>
                             <a href="#" className = "nav-item nav-link opciones active">Servicios</a>
                             <a href="#" className = "nav-item nav-link opciones active">Nosotros</a>
                             <a href="#" className = "nav-item nav-link opciones active">Contacto</a>

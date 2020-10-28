@@ -11,7 +11,7 @@ class FirstInfo extends Component{
                         <img src={remoto} className = "rounded img-fluid"/>
                     </span>
                 </div>
-                <div className = "text-left">
+                <div className = "letra text-left">
                     <br/>
                     <p>La asistencia remota es la conexión realizada
                         a distancia a tu computador, solamente necesitas
