@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import compu from '../../assets/compu.jpg'
 import '../../style/firstInfo.css'
+import Contactar from './contactar'
 class FirstInfo extends Component{
     render(){
         return(
@@ -11,7 +12,7 @@ class FirstInfo extends Component{
                         <h4>Para Computadores</h4>
                         <h6>Servicio de asistencia tecnica remota para Computadores y portatiles</h6>
                         <div className = "p-4">
-                            <a href="#" className = "btn btn-success">Contactanos</a>
+                            <Contactar/>
                         </div>
                     </div>
                     <div className = "col ml-auto">

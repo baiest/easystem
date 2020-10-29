@@ -4,7 +4,7 @@ import remoto from '../../assets/remoto.jpg'
 class FirstInfo extends Component{
     render(){
         return(
-            <div className = "p-4">
+            <div className = "container">
                 <h1>Servicio de asistencia tecnica remota</h1>
                 <div className = "">
                     <span>
