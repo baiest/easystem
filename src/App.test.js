@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Easystem/i);
+  const linkElement = screen.getByH1('Easystem');
   expect(linkElement).toBeInTheDocument();
 });

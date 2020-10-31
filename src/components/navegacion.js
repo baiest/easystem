@@ -27,7 +27,7 @@ class Navegacion extends Component{
                     data-target="#navbarToggler" 
                     aria-controls="navbarToggler" 
                     aria-expanded="false">
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                     </button>
 
                     <div className = "collapse navbar-collapse" id = "navbarToggler">
