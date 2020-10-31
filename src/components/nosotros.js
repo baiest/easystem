@@ -1,4 +1,5 @@
-﻿import React, { Component } from 'react'
+﻿
+import React, { Component } from 'react'
 import logo from '../assets/logo.jpg'
 import Contactar from './info/contactar'
 import '../style/nosotros.css'
