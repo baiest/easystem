@@ -1,26 +1,19 @@
-orbs:
-  node: circleci/node@4.0.0
-
-version: 2.1
-jobs:
-  build:
+executors:
+  buildpack_deps:
     docker:
-      - image: circleci/node:12
-
-    working_directory: ~/repo
-
+      - image: circleci/buildpack-deps
+jobs:
+  deploy_ghpages:
+    executor: buildpack_deps
     steps:
       - checkout
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "package.json" }}
-            - v1-dependencies-
-
-      - run: yarn install
-
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
-
-      - run: yarn build
+      - run: bash build.sh
+      - gh-pages/deploy:
+          ssh-fingerprints: 'ff:22:gs:v6:gg:2g:22:7j:73:gf:ja:36:ff:y2:22:89'
+orbs:
+  gh-pages: sugarshin/gh-pages@x.y.z
+version: 2.1
+workflows:
+  build_deploy:
+    jobs:
+      - deploy_ghpages
