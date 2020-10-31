@@ -4,7 +4,10 @@ node_js:
   - "node"
 
 script:
-  - react-scripts build
+  - npm install -g codecov
+  - npm test && codecov
+  - CI=false npm run build
+  - npm run docs
   
 cache:
   directories:
