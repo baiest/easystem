@@ -4,7 +4,7 @@
 set -e
 
 # build
-npm run build
+npm build
 
 # navigate into the build output directory
 cd dist
@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:anavictoria1994/Stay-at-home.git master:gh-pages
+git push -f git@github.com:anavictoria1994/Stay-at-home.git main:gh-pages
 
 cd -
