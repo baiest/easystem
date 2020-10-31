@@ -4,7 +4,11 @@ node_js:
   - "node"
 
 script:
-  - bash deploy.sh
+  - npm run clean-force
+  - npm run remove-modules
+  - npm run install-npm
+  - npm run audit-fix
+
 cache:
   directories:
     - node_modules
