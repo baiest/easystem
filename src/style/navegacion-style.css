@@ -2,6 +2,10 @@
     .opciones:hover {
         background-color: #648;
     }
+    .social img {
+        width: 10%;
+        margin-top: 5%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -15,5 +19,9 @@
     .opciones:hover::after {
         background-color: #fff;
         width: 100%;
+    }
+    .social {
+        width: 20%;
+        display: flex;
     }
 }

@@ -3,8 +3,18 @@ import logo from '../assets/logo.jpg'
 import Contactar from './info/contactar'
 import '../style/nosotros.css'
 import misionVision from '../assets/mision-vision.jpg'
+import {empleado} from './empleado.json';
+
+//Importar fotos en orden del JSON
+import empleado1 from '../assets/personal/andrea.png'
+
+
+const foto = [empleado1]
 class Nosotros extends Component {
+
     render(){
+        const listaEmpleado = empleado
+        var count = -1
         return(
             <div className = "container">
                 <div className = "row align-items-center">
@@ -15,7 +25,7 @@ class Nosotros extends Component {
                     </div>
                     <div className = "col">
                         <span>
-                            <img src={logo} className = "rounded img-fluid"/>
+                            <img src={logo} alt="" className = "rounded img-fluid"/>
                         </span>
                     </div>
                 </div>
@@ -43,11 +53,28 @@ class Nosotros extends Component {
                     <h1 className = "display-6 col-md-12">Contacta ahora</h1>
                     <Contactar className = "col-md-12"/>
                 </div>
+                
+                <div className ="row empleado letra justify-content-center">
+                    {listaEmpleado.map((emp) => {
+                            count+=1
+                            return(
+                            <div key = {count} className ="col-md-5 mt-4 text-center">
+                                <div className = "card text-white bg-dark">
+                                    <h1 className="card-header">{emp.nombre}</h1>
+                                    <img className = "card-img-top align-items-center img-fluid" alt="" src={foto[count] || logo}/>
+                                    <div className="card-body bg-dark" alt ="">
+                                        <p className ="card-body text-left">{emp.descripcion}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            );
+                        })}
+                </div>
                 <hr className = "row"/>
                 <div className = "row nosotrosCell p-3 align-items-center">
                     <div className = "col mb-4">
                         <span>
-                            <img src={misionVision} className = "rounded img-fluid"/>
+                            <img src={misionVision} alt="" className = "rounded img-fluid"/>
                         </span>
                     </div>
                     <div className = "col">

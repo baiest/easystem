@@ -1,6 +1,7 @@
+import {Link} from 'react-router-dom'
 function contactar(){
     return(
-        <a href="#" className = "btn btn-success">Contactanos</a>
+        <Link to="contactenos" className = "btn btn-success">Contactanos</Link>
     );
 }
 

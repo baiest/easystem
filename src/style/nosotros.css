@@ -2,4 +2,7 @@
     .nosotrosCell {
         display: inline-block;
     }
+    .empleado {
+        display: block;
+    }
 }

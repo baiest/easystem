@@ -12,7 +12,7 @@ class Principal extends Component{
                 <FirstInfo/>
                 <div className = "mt-4 mb-4">
                     <span>
-                        <img src={logo} className = "rounded img-fluid"/>
+                        <img src={logo} alt="" className = "rounded img-fluid"/>
                     </span>
                 </div>
                 <div className ="row col align-items-center secondCell">

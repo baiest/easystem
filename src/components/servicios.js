@@ -12,7 +12,7 @@ class Servicios extends Component{
                     <div className = "row servicioCell align-items-center">
                         <div className = "col">
                             <span>
-                                <img src={remoto} className = "rounded img-fluid"/>
+                                <img src={remoto} alt="" className = "rounded img-fluid"/>
                             </span>
                         </div>
                         <div className = "col letra text-left">

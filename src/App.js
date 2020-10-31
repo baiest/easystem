@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { createBrowserHistory } from 'history';
 
 import Navegacion from './components/navegacion'
 import Principal from './components/principal'
 import Footer from './components/footer'
 import Servicios from './components/servicios'
 import Nosotros from './components/nosotros'
+import Contactenos from './components/contactenos'
 
 function App() {
   return (
@@ -21,6 +20,8 @@ function App() {
           component = {Servicios}/>
           <Route exact path = '/nosotros'
           component = {Nosotros}/>
+           <Route exact path = '/contactenos'
+          component = {Contactenos}/>
         </Switch>
         <Footer/>
       </BrowserRouter>
