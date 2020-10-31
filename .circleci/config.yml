@@ -7,11 +7,9 @@ jobs:
     executor: buildpack_deps
     steps:
       - checkout
-      - run: bash build.sh
+      - run: bash deploy.sh
       - gh-pages/deploy:
           ssh-fingerprints: 'ff:22:gs:v6:gg:2g:22:7j:73:gf:ja:36:ff:y2:22:89'
-orbs:
-  gh-pages: sugarshin/gh-pages@x.y.z
 version: 2.1
 workflows:
   build_deploy:
