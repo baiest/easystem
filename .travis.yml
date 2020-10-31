@@ -2,7 +2,9 @@ lenguage: node_js
 
 node_js:
   - "node"
-  
+
+script:
+  - bash deploy.sh
 cache:
   directories:
     - node_modules
