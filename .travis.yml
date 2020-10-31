@@ -4,10 +4,7 @@ node_js:
   - "node"
 
 script:
-  - npm run clean-force
-  - npm run remove-modules
-  - npm run install-npm
-  - npm run audit-fix
+  - npm run build
 
 cache:
   directories:
