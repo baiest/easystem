@@ -54,16 +54,16 @@ class Nosotros extends Component {
                     <Contactar className = "col-md-12"/>
                 </div>
                 
-                <div className ="row empleado letra justify-content-center">
+                <div className ="row empleado justify-content-center">
                     {listaEmpleado.map((emp) => {
                             count+=1
                             return(
-                            <div key = {count} className ="col-md-5 mt-4 text-center">
-                                <div className = "card text-white bg-dark">
-                                    <h1 className="card-header">{emp.nombre}</h1>
+                            <div key = {count} className ="col-md-4 mt-5 text-center">
+                                <div className = "card text-white bg-dark m-3">
                                     <img className = "card-img-top align-items-center img-fluid" alt="" src={foto[count] || logo}/>
                                     <div className="card-body bg-dark" alt ="">
-                                        <p className ="card-body text-left">{emp.descripcion}</p>
+                                        <h3 className="card-text">{emp.nombre}</h3>
+                                        <p className ="card-text text-left letra">{emp.descripcion}</p>
                                     </div>
                                 </div>
                             </div>
