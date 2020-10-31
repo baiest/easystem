@@ -4,7 +4,7 @@ node_js:
   - "node"
 
 script:
-  - npm i
+  - npm test
   - npm run build
 
 cache:
