@@ -4,7 +4,7 @@ node_js:
   - "node"
 
 script:
-  - npm build
+  - npm run-script build
 cache:
   directories:
     - node_modules
@@ -15,4 +15,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: dist
   on:
-    branch: master
+    branch: main
