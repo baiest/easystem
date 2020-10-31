@@ -1,3 +1,4 @@
+/* eslint react/prop-types: 0 */
 import './App.css';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 

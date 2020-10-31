@@ -6,6 +6,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+process.env.CI = false
 ReactDOM.render(
   <React.StrictMode>
     <App />

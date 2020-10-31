@@ -1,4 +1,4 @@
-﻿
+﻿/* eslint react/prop-types: 0 */
 import React, { Component } from 'react'
 import logo from '../assets/logo.jpg'
 import Contactar from './info/contactar'

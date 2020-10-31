@@ -1,3 +1,4 @@
+/* eslint react/prop-types: 0 */
 import React, { Component } from 'react';
 import '../style/navegacion-style.css'
 import {Link } from 'react-router-dom'
