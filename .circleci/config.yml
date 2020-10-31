@@ -3,11 +3,18 @@ orbs: # declare what orbs we are going to use
 
 version: 2.1 # using 2.1 provides access to orbs and other features
 
-workflows:
-  matrix-tests:
-    jobs:
-      build:
-        docker:
-          - image: circleci/node:12.9.1-browsers
-      
-        working_directory: ~/repo
+jobs:
+  build:
+    docker:
+      - image: circleci/node:12.9.1-browsers
+  
+    working_directory: ~/repo
+steps:
+  - checkout
+  
+  - restore_cache:
+    keys:
+      - v1-dependencies-{{ checksum "package.json" }}
+      - v1-dependencies-
+  
+  - run: yarn install
