@@ -7,10 +7,16 @@ import misionVision from '../assets/mision-vision.jpg'
 import {empleado} from './empleado.json';
 
 //Importar fotos en orden del JSON
-import empleado1 from '../assets/personal/andrea.png'
+var empleado1
+var foto = []
+try{
+    empleado1 = require('../assets/personal/andrea.png')
+    foto.push(empleado1)
+}catch(e){
+    console.log('Alguna foto no encontrada')
+}
 
 
-const foto = [empleado1]
 class Nosotros extends Component {
 
     render(){

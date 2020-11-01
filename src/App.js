@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 import Navegacion from './components/navegacion'
 import Principal from './components/principal'
@@ -11,7 +11,6 @@ import Contactenos from './components/contactenos'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
         <Navegacion />
         <Switch>
           <Route exact path = '/'
@@ -24,7 +23,6 @@ function App() {
           component = {Contactenos}/>
         </Switch>
         <Footer/>
-      </BrowserRouter>
     </div>
   );
 }
