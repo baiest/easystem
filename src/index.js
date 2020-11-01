@@ -7,16 +7,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 
-const path = window.location.pathname.slice(1);
-const listPath = ['', 'servicios', 'nosotros']
-localStorage.setItem('path', path);
-if (listPath.includes(path)) {
-    console.log('Existe')
-} else {
-    console.log('No existe')
-}
-console.log(path)
-
 ReactDOM.render(
   <BrowserRouter history = 'history' basename={process.env.PUBLIC_URL}>
     <App />
