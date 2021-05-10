@@ -2,19 +2,21 @@ import './App.css';
 import { Route, Switch } from "react-router-dom";
 
 import Navegacion from './components/navegacion'
-import Principal from './components/principal'
 import Footer from './components/footer'
-import Servicios from './components/servicios'
-import Nosotros from './components/nosotros'
 import Contactenos from './components/contactenos'
+import Principal from './pages/principal'
+import Servicios from './pages/servicios'
+import Nosotros from './pages/nosotros'
 
 function App() {
   return (
     <div className="App">
-        <Navegacion />
+        <Navegacion nombre='Easystem'/>
+        <div className="container">
+
         <Switch>
           <Route exact path = '/'
-          component = {Principal}/>
+          render = {() => <Principal/>}/>
           <Route exact path = '/servicios'
           component = {Servicios}/>
           <Route exact path = '/nosotros'
@@ -22,6 +24,7 @@ function App() {
            <Route exact path = '/contactenos'
           component = {Contactenos}/>
         </Switch>
+          </div>
         <Footer/>
     </div>
   );
