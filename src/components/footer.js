@@ -8,7 +8,7 @@ class Footer extends Component {
     }
     render(){
         return(
-            <footer className = "p-4 page-footer text-white align-items-center"
+            <footer className = "p-4 page-footer text-white align-items-center w-100"
                     style={{backgroundColor: '#572364'}}>   
                      <div className = "col ml-auto">
                         <span>

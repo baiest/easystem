@@ -1,26 +1,25 @@
-import React, { Component } from 'react';
+import React, { Component , Fragment } from 'react';
 import '../style/navegacion-style.css'
-import {Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import facebook from '../assets/social/facebook.png'
 import instagram from '../assets/social/instagram.png'
 import twitter from '../assets/social/twitter.png'
 import whatsapp from '../assets/social/whatsapp.png'
+
 class Navegacion extends Component{
-    constructor(){
-        super();
-        this.state = {
-            nombre: 'Easystem'
-        }
-    }
+    
     render(){
         return(
-            <div>
+            <Fragment>
                 <nav
-                className ="p-3 navbar navbar-expand-lg navbar-dark"
-                style={{backgroundColor: '#572364'}}
+                className ="d-flex justify-content-around pt-2 pl-5 pr-5 navbar navbar-expand-lg"
                 >
-                    <h1 className = "mr-5 display-4 text-white">Easystem</h1>
-                    <button className = "navbar-toggler" 
+                    <Link to="/" className='w-25 d-flex align-items-center justify-content-between'>
+                        <img className='navbar-toggle-icon mr-2' src="https://www.easystem.co/wp-content/uploads/2021/04/cropped-Nuevo-proyecto-10-70x62.png" alt="logo-empresa"/>
+                        <h1 className = "">{this.props.nombre}</h1>
+                    </Link>
+                    
+                    <button className = "navbar-toggler navbar-dark" 
                     type = "button" 
                     data-toggle="collapse" 
                     aria-label = "Toogle navigation"
@@ -30,7 +29,7 @@ class Navegacion extends Component{
                     <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className = "collapse navbar-collapse" id = "navbarToggler">
+                    <div className='collapse navbar-collapse ' id = "navbarToggler">
                         <ul className = "navbar-nav mr-auto mt-2 mt-lg-0">
                             <Link to="/" className = "nav-item nav-link opciones active">Inicio</Link>
                             <Link to="servicios" className = "nav-item nav-link opciones active">Servicios</Link>
@@ -38,6 +37,7 @@ class Navegacion extends Component{
                             <Link to="contactenos" className = "nav-item nav-link opciones active">Contacto</Link>
                         </ul>
                     </div>
+
                     <div className="social">
                         <a href="https://www.facebook.com/easystem.co" className = "col"><img src={facebook} className = "img-fluid"/></a>
                         <a href="https://www.instagram.com/easystemsoluciones/" className = "col"><img src={instagram} className = "img-fluid"/></a>
@@ -46,7 +46,7 @@ class Navegacion extends Component{
                     </div>
 
                 </nav>
-            </div>
+            </Fragment>
         );
     }
 }
