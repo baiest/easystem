@@ -16,7 +16,7 @@ class Navegacion extends Component{
                 >
                     <Link to="/" className='w-25 d-flex align-items-center justify-content-between'>
                         <img className='navbar-toggle-icon mr-2' src="https://www.easystem.co/wp-content/uploads/2021/04/cropped-Nuevo-proyecto-10-70x62.png" alt="logo-empresa"/>
-                        <h1 className = "">{this.props.nombre}</h1>
+                        <h1>{this.props.nombre}</h1>
                     </Link>
                     
                     <button className = "navbar-toggler navbar-dark" 

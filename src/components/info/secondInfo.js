@@ -5,7 +5,7 @@ class FirstInfo extends Component{
     render(){
         return(
             <div className = "container">
-                <h1>Servicio de asistencia tecnica remota</h1>
+                <h2>Servicios a tu medida</h2>
                 <div className = "">
                     <span>
                         <img src={remoto} className = "rounded img-fluid"/>

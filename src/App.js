@@ -11,9 +11,8 @@ import Nosotros from './pages/nosotros'
 function App() {
   return (
     <div className="App">
-        <Navegacion nombre='Easystem'/>
-        <div className="container">
-
+      <Navegacion nombre='Easystem'/>
+      <div className="container">
         <Switch>
           <Route exact path = '/'
           render = {() => <Principal/>}/>
@@ -21,11 +20,11 @@ function App() {
           component = {Servicios}/>
           <Route exact path = '/nosotros'
           component = {Nosotros}/>
-           <Route exact path = '/contactenos'
+          <Route exact path = '/contactenos'
           component = {Contactenos}/>
         </Switch>
-          </div>
-        <Footer/>
+      </div>
+      <Footer/>
     </div>
   );
 }
