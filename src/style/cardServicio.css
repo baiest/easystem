@@ -1,0 +1,21 @@
+.card-animation {
+    color: #3987f7;
+    cursor: pointer;
+    background: lightgoldenrodyellow;
+    transition: all .3s;
+    border-radius: 0;
+}
+
+.card-animation:hover {
+    color: white;
+    background: #3987f7;
+    transform: scale(1.2);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.card-animation img {
+    background: aliceblue;
+    border-radius: 50%;
+}

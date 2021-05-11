@@ -1,26 +1,21 @@
 import React, {Component} from 'react'
 import FirstInfo from '../components/info/firstInfo'
 import SecondInfo from '../components/info/secondInfo'
-import Formulario from '../components/info/formulario'
+import Clientes from '../components/clientes'
 import logo from '../assets/logo.jpg'
 import '../style/secondInfo.css'
 
 class Principal extends Component{
     render(){
         return(
-            <div>
+            <div className='mt-2 mb-2'>
                 <FirstInfo/>
-                <div className = "mt-4 mb-4">
-                    <span>
-                        <img src={logo} alt="" className = "rounded img-fluid"/>
-                    </span>
-                </div>
                 <div className ="row col align-items-center secondCell">
                     <div className = "col">    
                         <SecondInfo/>
                     </div>
                     <div className = "col">
-                        <Formulario/>
+                        <Clientes/>
                     </div>
                 </div>
             </div>

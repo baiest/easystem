@@ -9,16 +9,15 @@ class Footer extends Component {
     render(){
         return(
             <footer className = "p-4 page-footer text-white align-items-center w-100"
-                    style={{backgroundColor: '#572364'}}>   
+                    style={{background: '#3987f7'}}>   
                      <div className = "col ml-auto">
                         <span>
-                            <img src={logo} className = "rounded img-fluid"/>
+                            <img src='https://www.easystem.co/wp-content/uploads/2021/04/cropped-Nuevo-proyecto-10-70x62.png' className = "rounded img-fluid"/>
                         </span>
                     </div>
                     <br/>
-                    <div className = ""
-                         style={{backgroundColor: '#548'}}>
-                        © {this.actualYear()} EASYSTEM
+                    <div className = "">
+                        © {this.actualYear()} EASYSTEM hecho por Juan con ♥
                     </div>
             </footer>
         );

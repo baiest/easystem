@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import CardServicio from '../cardServicios'
 import remoto from '../../assets/remoto.jpg'
 
 class FirstInfo extends Component{
@@ -6,26 +7,17 @@ class FirstInfo extends Component{
         return(
             <div className = "container">
                 <h2>Servicios a tu medida</h2>
-                <div className = "">
-                    <span>
-                        <img src={remoto} className = "rounded img-fluid"/>
-                    </span>
-                </div>
-                <div className = "letra text-left">
-                    <br/>
-                    <p>La asistencia remota es la conexión realizada
-                        a distancia a tu computador, solamente necesitas
-                        tener una conexión a internet.</p>
-
-                    <p>Durante esta conexión podemos realizar las instalaciones
-                        o configuraciones necesarias para dar solución a tus
-                        inconvenientes. Simplemente tomando el control a distancia,
-                        sin importar donde estés, podemos ayudarte.</p>
-
-                    <p>Es totalmente segura la conexion que realizamos,
-                        pudiendo desconectar la conexión en cualquier
-                        momento o motivo.</p>
-                </div>
+                <p>No importa si tienes <b>equipos corporativos</b> o <b>equipos de hogar</b>, tenemos una solución a <b>tu medida</b></p>
+                <CardServicio
+                imagen='https://www.easystem.co/wp-content/uploads/2021/01/development-service-1-svg.png'
+                titulo='Linea Corporativa'
+                descripcion='Damos soporte a empresas, con mesa de ayuda, tecnicos en sitio o soporte por servicios adaptados a tu medida'
+                />
+                <CardServicio
+                imagen='https://www.easystem.co/wp-content/uploads/2021/01/development-service-1-svg.png'
+                titulo='Linea Corporativa'
+                descripcion='Damos soporte a empresas, con mesa de ayuda, tecnicos en sitio o soporte por servicios adaptados a tu medida'
+                />
             </div>
         );
     }

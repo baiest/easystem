@@ -5,7 +5,7 @@ import Contactar from './contactar'
 class FirstInfo extends Component{
     render(){
         return(   
-        <div className = "row p-4 justify-content-center align-items-center cell">
+        <div className = "p-4 row justify-content-center align-items-center cell">
             <section className = "col sobrepuesto justify-content-center">
                 <h4>¿Tienes problemas con tus computadores?</h4>
                 <h2>¡Nosotros podemos ayudarte!</h2>
