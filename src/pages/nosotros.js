@@ -1,4 +1,3 @@
-﻿// eslint-disabl-next-line
 import React, { Component } from 'react'
 import logo from '../assets/logo.jpg'
 import Contactar from '../components/info/contactar'
@@ -7,17 +6,9 @@ import misionVision from '../assets/mision-vision.jpg'
 import {empleado} from '../components/empleado.json';
 
 //Importar fotos en orden del JSON
-var empleado1
 var foto = []
-try{
-    empleado1 = require('../assets/personal/andrea.png')
-    foto.push(empleado1)
-}catch(e){
-    console.log('Alguna foto no encontrada')
-}
 
-
-class Nosotros extends Component {
+export default class Nosotros extends Component {
 
     render(){
         const listaEmpleado = empleado
@@ -107,5 +98,3 @@ class Nosotros extends Component {
         );
     }
 }
-
-export default Nosotros

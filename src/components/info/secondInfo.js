@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import CardServicio from '../cardServicios'
-import remoto from '../../assets/remoto.jpg'
 
 class FirstInfo extends Component{
     render(){

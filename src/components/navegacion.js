@@ -12,7 +12,7 @@ class Navegacion extends Component{
         return(
             <Fragment>
                 <nav
-                className ="d-flex justify-content-around pt-2 pl-5 pr-5 navbar navbar-expand-lg"
+                className ="d-flex justify-content-between pt-2 pl-5 pr-5 navbar navbar-expand-lg"
                 >
                     <Link to="/" className='w-25 d-flex align-items-center justify-content-between'>
                         <img className='navbar-toggle-icon mr-2' src="https://www.easystem.co/wp-content/uploads/2021/04/cropped-Nuevo-proyecto-10-70x62.png" alt="logo-empresa"/>
@@ -39,10 +39,10 @@ class Navegacion extends Component{
                     </div>
 
                     <div className="social">
-                        <a href="https://www.facebook.com/easystem.co" className = "col"><img src={facebook} className = "img-fluid"/></a>
-                        <a href="https://www.instagram.com/easystemsoluciones/" className = "col"><img src={instagram} className = "img-fluid"/></a>
-                        <a href="https://twitter.com/TWEASYSTEM" className = "col"><img src={twitter} className = "img-fluid"/></a>
-                        <a href="https://api.whatsapp.com/send?phone=+573126846268" className = "col"><img src={whatsapp} className = "img-fluid"/></a>
+                        <a href="https://www.facebook.com/easystem.co" className = "col"><img alt='icono facebook' src={facebook} className = "img-fluid"/></a>
+                        <a href="https://www.instagram.com/easystemsoluciones/" className = "col"><img alt='icono instagram' src={instagram} className = "img-fluid"/></a>
+                        <a href="https://twitter.com/TWEASYSTEM" className = "col"><img alt='icono twitter' src={twitter} className = "img-fluid"/></a>
+                        <a href="https://api.whatsapp.com/send?phone=+573126846268" className = "col"><img alt='icono whatsapp' src={whatsapp} className = "img-fluid"/></a>
                     </div>
 
                 </nav>

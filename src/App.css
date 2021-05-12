@@ -23,6 +23,11 @@
     color: white;
 }
 
+.btn {
+    background: #3987f7;
+    color: white;
+}
+
 Footer {
     align-self: flex-end;
 }

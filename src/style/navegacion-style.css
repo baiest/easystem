@@ -1,9 +1,9 @@
-a {
+nav a {
     text-decoration: none;
     color: #f56b5d;
 }
 
-a:hover {
+nav a:hover {
     text-decoration: none;
     color: #f56b5d;
 }
@@ -13,6 +13,9 @@ a:hover {
 }
 
 @media screen and (max-width: 992px) {
+    h1 {
+        font-size: 1.5rem;
+    }
     .opciones:hover {
         background-color: #648;
     }

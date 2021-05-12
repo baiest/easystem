@@ -1,0 +1,12 @@
+.formulario {
+    border: 4px solid #f56b5d;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.formulario input {
+    padding: 10px;
+    border: 0px;
+    border-bottom: 2px solid #f56b5d;
+    outline: none;
+}
