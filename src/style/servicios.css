@@ -1,5 +1,28 @@
+.grupo-servicios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grupo-servicios div {
+    width: 350px;
+}
+
+.grupo-servicios img {
+    width: 100%;
+}
+
+.grupo-servicios .card-animation:hover {
+    z-index: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 992px) {
     .servicioCell {
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
