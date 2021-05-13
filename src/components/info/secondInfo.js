@@ -13,9 +13,9 @@ class FirstInfo extends Component{
                 descripcion='Damos soporte a empresas, con mesa de ayuda, tecnicos en sitio o soporte por servicios adaptados a tu medida'
                 />
                 <CardServicio
-                imagen='https://www.easystem.co/wp-content/uploads/2021/01/development-service-1-svg.png'
-                titulo='Linea Corporativa'
-                descripcion='Damos soporte a empresas, con mesa de ayuda, tecnicos en sitio o soporte por servicios adaptados a tu medida'
+                imagen='https://www.easystem.co/wp-content/uploads/2021/01/development-service-1-svg-1.png'
+                titulo='Linea Hogar'
+                descripcion='Te brindamos una solución inmediata con el soporte online o realizando visitas por personal capacitado'
                 />
             </div>
         );

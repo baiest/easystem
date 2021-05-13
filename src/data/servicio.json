@@ -1,0 +1,33 @@
+{
+    "servicio": [{
+            "imagen": "https://www.easystem.co/wp-content/uploads/2020/06/development-service.svg",
+            "titulo": "Soporte tecnico Online",
+            "descripcion": "La asistencia remota es la conexión realizada a distancia a tu computador, solamente necesitas tener una conexión a internet"
+        },
+        {
+            "imagen": "https://www.easystem.co/wp-content/uploads/2020/06/support-service.svg",
+            "titulo": "Soporte tecnico Presencial",
+            "descripcion": "Problemas con algun computador, impresora o red, te asignamos un ticket y puedes tener el control en todo momento del estado de tu solicitud"
+        },
+        {
+            "imagen": "https://www.easystem.co/wp-content/uploads/2020/06/digital-marketing-service.svg",
+            "titulo": "Marketing Digital",
+            "descripcion": "Ahora podemos orientar e implementar estrategias de marketing digital"
+        },
+        {
+            "imagen": "https://www.easystem.co/wp-content/uploads/2020/06/ecommerce-service.svg",
+            "titulo": "eCommerce",
+            "descripcion": "Necesitas vender Online, crea una tienda virtual con WordPress, WooCommerce y comienza ahora"
+        },
+        {
+            "imagen": "https://www.easystem.co/wp-content/uploads/2020/06/design-service.svg",
+            "titulo": "Redes",
+            "descripcion": "Instalación de cableado estructurado, certificado para tu negocio"
+        },
+        {
+            "imagen": "https://www.easystem.co/wp-content/uploads/2020/12/development-service-svg.png",
+            "titulo": "Soporte Nacional",
+            "descripcion": "Contamos con aliados estrategicos logrando alcanzar todo el territorio nacional con personal de cada región"
+        }
+    ]
+}

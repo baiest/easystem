@@ -10,7 +10,8 @@
 }
 
 .letra {
-    font-family: 'Verdana'
+    font-family: 'Verdana';
+    text-align: left;
 }
 
 p {

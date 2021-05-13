@@ -10,7 +10,7 @@ class Principal extends Component{
         return(
             <div className='mt-2 mb-2'>
                 <FirstInfo/>
-                <div className ="row col secondCell">
+                <div className ="row col align-items-center secondCell">
                     <div className = "col mt-4 mb-4">    
                         <SecondInfo/>
                     </div>

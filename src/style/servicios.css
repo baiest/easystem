@@ -7,10 +7,15 @@
 
 .grupo-servicios div {
     width: 350px;
+    height: 100%;
 }
 
 .grupo-servicios img {
     width: 100%;
+}
+
+.grupo-servicios a:hover {
+    text-decoration: none;
 }
 
 .grupo-servicios .card-animation:hover {
@@ -23,6 +28,5 @@
     .servicioCell {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
     }
 }
