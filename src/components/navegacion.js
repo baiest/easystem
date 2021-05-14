@@ -33,6 +33,7 @@ class Navegacion extends Component{
                         <ul className = "navbar-nav mr-auto mt-2 mt-lg-0">
                             <Link to="/" className = "nav-item nav-link opciones active">Inicio</Link>
                             <Link to="servicios" className = "nav-item nav-link opciones active">Servicios</Link>
+                            <Link to="tarifas" className = "nav-item nav-link opciones active">Tarifas</Link>
                             <Link to="nosotros" className = "nav-item nav-link opciones active">Nosotros</Link>
                             <Link to="contactenos" className = "nav-item nav-link opciones active">Contacto</Link>
                         </ul>

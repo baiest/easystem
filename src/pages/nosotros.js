@@ -4,14 +4,9 @@ import '../style/nosotros.css'
 import misionVision from '../assets/mision-vision.jpg'
 import {empleado} from '../data/empleado.json';
 
-//Importar fotos en orden del JSON
-var foto = []
-
 export default class Nosotros extends Component {
 
     render(){
-        const listaEmpleado = empleado
-        var count = -1
         return(
             <div className = "container">
                 <div className = "row align-items-center">
@@ -21,7 +16,7 @@ export default class Nosotros extends Component {
                             de la Información (TI).</p>
                     </div>
                     <div className = "col">
-                            <img src="https://www.easystem.co/wp-content/uploads/2021/04/cropped-Nuevo-proyecto-10-70x62.png" alt="logo easystem" className = "rounded img-fluid"/>
+                            <img src="https://pbs.twimg.com/profile_images/1385255943601016833/lICPgxAO_400x400.png" alt="logo easystem" className='redondo'/>
                     </div>
                 </div>
                 <hr className = "row"/>
@@ -50,12 +45,11 @@ export default class Nosotros extends Component {
                 </div>
                 
                 <div className ="row empleado justify-content-center">
-                    {listaEmpleado.map((emp) => {
-                            count+=1
+                    {empleado.map((emp, key) => {
                             return(
-                            <div key = {count} className ="col-md-4 mt-5 text-center">
+                            <div key = {key} className ="col-md-4 mt-5 text-center h-100">
                                 <div className = "card text-white bg-dark m-3">
-                                    <img className = "card-img-top align-items-center img-fluid" alt="" src={foto[count] || "https://www.easystem.co/wp-content/uploads/2021/04/cropped-Nuevo-proyecto-10-70x62.png"}/>
+                                    <img className = "card-img-top align-items-center img-fluid" alt={`empleado ${key}`} src={emp.imagen || "https://www.easystem.co/wp-content/uploads/2021/04/cropped-Nuevo-proyecto-10-70x62.png"}/>
                                     <div className="card-body bg-dark" alt ="">
                                         <h3 className="card-text">{emp.nombre}</h3>
                                         <p className ="card-text text-left letra">{emp.descripcion}</p>
@@ -66,10 +60,10 @@ export default class Nosotros extends Component {
                         })}
                 </div>
                 <hr className = "row"/>
-                <div className = "row nosotrosCell p-3 align-items-center">
+                <div className = "row nosotrosCell p-3 justify-content-center align-items-center">
                     <div className = "col mb-4">
                         <span>
-                            <img src={misionVision} alt="" className = "rounded img-fluid"/>
+                            <img src={misionVision} alt="imagen empresarial dibujo" className = "rounded img-fluid"/>
                         </span>
                     </div>
                     <div className = "col">
@@ -91,6 +85,26 @@ export default class Nosotros extends Component {
                         </div>
                     </div>
                 </div>
+                <hr className = "row"/>
+                <h2>¿Por qué elegirnos?</h2>
+                <ul className = "row nosotrosCell p-3 justify-content-center">
+                    <ul className="col-md-4">
+                        <h4>La Mejor Calidad</h4>
+                        <p>Nuestros servicios finalizan con tu satisfacción, sin importar el tiempo requerido</p>
+                    </ul>
+                    <ul className="col-md-4">
+                        <h4>Asistencia Inmediata</h4>
+                        <p>Contamos con la primera mesa de ayuda para pequeñas empresas o usuarios domesticos y asi brindar soporte tecnico de manera inmediata</p>
+                    </ul>
+                    <ul className="col-md-4">
+                        <h4>Soporte Técnico</h4>
+                        <p>En caso de ser necesario, contamos con aliados a nivel nacional para brindar soporte presencial</p>
+                    </ul>
+                    <ul className="col-md-4">
+                        <h4>Personal Capacitado</h4>
+                        <p>Contamos con personal en constante capacitación para ofrecerte la mejor experiencia de servicio</p>
+                    </ul>
+                </ul>
             </div>
         );
     }

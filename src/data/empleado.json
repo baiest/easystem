@@ -1,15 +1,23 @@
 {
     "empleado": [{
-            "nombre": "Andrea Ceballos Ocampo",
-            "descripcion": "Una persona de 27 años con 6 años de experiencia en nuestra empresa, amable y confiable atenta cuyo trabajo a traido un buen nombre a Easystem"
+            "nombre": "Andres Hernandez",
+            "descripcion": "Fundador y CEO de EASYSTEM, especialista en soporte, un convencido del emprendimiento y amante de nuevas herramientas",
+            "imagen": "https://www.easystem.co/wp-content/uploads/2021/05/Andres-Hernandez-CEO-easystem-768x830.jpg"
         },
         {
-            "nombre": "Nombre",
-            "descripcion": "Aqui ira una descripcion"
+            "nombre": "Andrea Ceballos",
+            "descripcion": "Especializada en impresoras Lexmark, me gustá viajar, conocer lugares industriales y me encantan los gatos",
+            "imagen": "https://www.easystem.co/wp-content/uploads/2021/05/Andrea-Ceballos-Soporte-easystem-768x798.jpg"
         },
         {
-            "nombre": "Nombre",
-            "descripcion": "Aqui ira una descripcion"
+            "nombre": "Natalia Caicedo",
+            "descripcion": "Especializada en impresoras Lexmark, me gustá viajar, conocer lugares industriales y me encantan los gatos",
+            "imagen": "https://www.easystem.co/wp-content/uploads/2021/05/Natalia-Caicedo-Directora-Creativa-easystem-.jpg"
+        },
+        {
+            "nombre": "Tatiana Cardenas",
+            "descripcion": "Administrativa, me encargo que todo les fluya, organizo el equipo y respondo correos, adoro los gaticos",
+            "imagen": "https://www.easystem.co/wp-content/uploads/2021/05/Tatiana-Cardenas-Administrativa-easystem.jpg"
         }
     ]
 }

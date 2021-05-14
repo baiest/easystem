@@ -7,6 +7,7 @@ import Contactenos from './components/contactenos'
 import Principal from './pages/principal'
 import Servicios from './pages/servicios'
 import Nosotros from './pages/nosotros'
+import Tarifas from './pages/tarifas'
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
           render = {() => <Principal/>}/>
           <Route exact path = '/servicios'
           component = {Servicios}/>
+          <Route exact path = '/tarifas'
+          component = {Tarifas}/>
           <Route exact path = '/nosotros'
           component = {Nosotros}/>
           <Route exact path = '/contactenos'

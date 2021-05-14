@@ -1,3 +1,9 @@
+.redondo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
 @media screen and (max-width: 992px) {
     .nosotrosCell {
         display: inline-block;

@@ -7,9 +7,18 @@ class Contactenos extends Component {
             <div className= "container">
                 <h1 className = "col align-items-center">Contactenos</h1>
                 <div className = "row">
-                    <div className = "col">
-                        <Formulario className = "col"/>
+                <div className='col mt-4 mb-4 justify-content-center d-flex'>
+                        <Formulario/>
                     </div>
+                    <iframe 
+                    className='col mt-4 mb-4 justify-content-center d-flex'
+                    scrolling="no"
+                    src='https://maps.google.com/maps?q=easystem&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near'
+                    title="easystem" 
+                    aria-label="easystem"
+                    height="400"
+                    width="400"
+                    style={{border: '0'}}></iframe> 
                 </div>
                 <div className = "jumbotron">
                     <p>También puedes contactarnos de manera inmediata 
