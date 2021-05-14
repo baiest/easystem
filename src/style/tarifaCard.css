@@ -1,5 +1,6 @@
 .tarifa-card {
     width: 250px;
+    height: 200px;
     margin: 10px;
     border-radius: 15px;
     border: 4px solid blue;
@@ -9,6 +10,7 @@
     align-items: center;
     justify-content: center;
 }
+
 
 .tarifa-card h3 {
     font-size: 25px;
@@ -23,5 +25,6 @@
     }
     .tarifa-card {
         margin-bottom: 100px;
+        
     }
 }

@@ -1,0 +1,66 @@
+{
+    "informacionCard": [{
+            "nombre": "Mantenimiento Correctivo Online",
+            "precio": "29.000",
+            "atributos": [{
+                    "nombre": "Correctivo Online",
+                    "descripcion": "Nos conectamos por internet para solucionar tus inconvenientes"
+                },
+                {
+                    "nombre": "Rapidez",
+                    "descripcion": "La conexión por internet es de manera inmediata, sin esperas por desplazamiento"
+                },
+                {
+                    "nombre": "Sin fronteras",
+                    "descripcion": "No importa donde estés, si tienes internet podemos ayudarte"
+                },
+                {
+                    "nombre": "Seguridad",
+                    "descripcion": "En cualquier momento puedes desconectar la sesión y nuestra conexión es totalmente privada"
+                }
+            ]
+        },
+        {
+            "nombre": "Mantenimiento Preventivo Presencial",
+            "precio": "19.000",
+            "atributos": [{
+                    "nombre": "Preventivo",
+                    "descripcion": "Limpieza interna y externa de los dispositivos, evita daños por sobrecalentamiento"
+                },
+                {
+                    "nombre": "Inventario",
+                    "descripcion": "Inventario en físico o digital de cada dispositivo"
+                },
+                {
+                    "nombre": "Mantenimiento lógico",
+                    "descripcion": "Limpieza de temporales y optimización del sistema"
+                },
+                {
+                    "nombre": "Cobertura Nacional",
+                    "descripcion": "Contamos con aliados a nivel nacional*"
+                }
+            ]
+        },
+        {
+            "nombre": "Mantenimiento Correctivo Presencial",
+            "precio": "49.000",
+            "atributos": [{
+                    "nombre": "Correctivo",
+                    "descripcion": "Tienes un técnico en sitio para dar solución a tu inconveniente"
+                },
+                {
+                    "nombre": "No pagues mas",
+                    "descripcion": "Sin gastos sorpresa, el servicio termina con la solución a tu inconveniente"
+                },
+                {
+                    "nombre": "Todo en sitio ",
+                    "descripcion": "Nunca retiramos equipos de su sitio, todo se realiza bajo tu supervisión"
+                },
+                {
+                    "nombre": "Cobertura Nacional",
+                    "descripcion": "Contamos con aliados a nivel nacional*"
+                }
+            ]
+        }
+    ]
+}

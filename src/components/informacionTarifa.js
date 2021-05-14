@@ -10,7 +10,7 @@ export default class InformacionTarifa extends Component{
                 </div>
                 <div className="d-flex flex-wrap justify-content-around">
                     {this.props.atributos.map((atributo, key) =>{
-                        return <section key={key} className="card mb-4">
+                        return <section key={key} className="card mb-4" style={{width: '250px'}}>
                                 <h5 className="card-title mt-4 ml-4">{atributo.nombre}</h5>
                                 <p className="card-body">{atributo.descripcion}</p>
                                </section>
