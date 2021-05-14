@@ -40,10 +40,10 @@ class Navegacion extends Component{
                     </div>
 
                     <div className="social">
-                        <a href="https://www.facebook.com/easystem.co" className = "col"><img alt='icono facebook' src={facebook} className = "img-fluid"/></a>
-                        <a href="https://www.instagram.com/easystemsoluciones/" className = "col"><img alt='icono instagram' src={instagram} className = "img-fluid"/></a>
-                        <a href="https://twitter.com/TWEASYSTEM" className = "col"><img alt='icono twitter' src={twitter} className = "img-fluid"/></a>
-                        <a href="https://api.whatsapp.com/send?phone=+573126846268" className = "col"><img alt='icono whatsapp' src={whatsapp} className = "img-fluid"/></a>
+                        <a href="https://www.facebook.com/easystem.co" className = "col"><img alt='icono facebook' src={facebook}/></a>
+                        <a href="https://www.instagram.com/easystemsoluciones/" className = "col"><img alt='icono instagram' src={instagram} /></a>
+                        <a href="https://twitter.com/TWEASYSTEM" className = "col"><img alt='icono twitter' src={twitter} /></a>
+                        <a href="https://api.whatsapp.com/send?phone=+573126846268" className = "col"><img alt='icono whatsapp' src={whatsapp} /></a>
                     </div>
 
                 </nav>

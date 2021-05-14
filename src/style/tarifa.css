@@ -11,9 +11,14 @@
     position: relative;
 }
 
-.container-tarifa div {
+.container-tarifa div,
+.container-tarifa a {
     position: relative;
     z-index: 2;
+}
+
+.container-tarifa .card {
+    background-color: rgba(60, 255, 132, 0.3);
 }
 
 #precio {
@@ -23,7 +28,6 @@
     margin: 15px auto;
     width: 75%;
     background: aliceblue;
-    transition: all 1s;
 }
 
 @media screen and (min-width: 992px) {

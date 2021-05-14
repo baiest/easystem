@@ -29,6 +29,12 @@
     color: white;
 }
 
+.btn:hover {
+    background: white;
+    color: #3987f7;
+    border: 2px solid #3987f7;
+}
+
 a:hover {
     text-decoration: none;
 }

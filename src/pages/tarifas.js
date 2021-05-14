@@ -23,9 +23,9 @@ export default class Tarifas extends Component {
     render() {
         return ( 
         <div className = "container-tarifa mt-4 mb-4" >
-            <TarifaCard {...this.state.informacionCard[0]} index={0} handler={this.handleClick}/>
-            <TarifaCard {...this.state.informacionCard[1]} index={1} handler={this.handleClick}/>
-            <TarifaCard {...this.state.informacionCard[2]} index={2} handler={this.handleClick}/>
+            <TarifaCard {...this.state.informacionCard[0]} color="green" index={0} handler={this.handleClick}/>
+            <TarifaCard {...this.state.informacionCard[1]} color="#f66c5d" index={1} handler={this.handleClick}/>
+            <TarifaCard {...this.state.informacionCard[2]} color="#3987f7" index={2} handler={this.handleClick}/>
             <InformacionTarifa {...this.state.informacionCard[this.state.informacionIndex]}/>
         </div>
         );
