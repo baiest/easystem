@@ -5,6 +5,7 @@ import facebook from '../assets/social/facebook.png'
 import instagram from '../assets/social/instagram.png'
 import twitter from '../assets/social/twitter.png'
 import whatsapp from '../assets/social/whatsapp.png'
+import logo from '../assets/logo.jpg'
 
 export default class Navegacion extends Component{
     
@@ -14,7 +15,7 @@ export default class Navegacion extends Component{
             className ="navbar navbar-expand-lg d-flex justify-content-around align-items-center"
             >
                 <Link to="/" className='d-flex align-items-center'>
-                    <img className='navbar-toggle-icon mr-2' src="https://www.easystem.co/wp-content/uploads/2021/04/cropped-Nuevo-proyecto-10-70x62.png" alt="logo-empresa"/>
+                    <img className='navbar-toggle-icon mr-2' src={logo} style={{width: '100px'}} alt="logo-empresa"/>
                     <h1>{this.props.nombre}</h1>
                 </Link>
                 

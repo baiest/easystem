@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import remoto from '../../assets/remoto.jpg'
+import foto from '../../assets/servicio-remoto.jpeg'
 
 export default class ServicioRemoto extends Component{
     render(){
@@ -9,7 +9,7 @@ export default class ServicioRemoto extends Component{
                 <div className = "row servicioCell align-items-center">
                     <div className = "col">
                         <span>
-                            <img src={remoto} alt="Imagen ejemplo remoto" className = "rounded img-fluid"/>
+                            <img src={foto} alt="Imagen ejemplo remoto" className = "rounded img-fluid"/>
                         </span>
                     </div>
                     <div className = "col letra text-left">
@@ -28,9 +28,9 @@ export default class ServicioRemoto extends Component{
                             momento o motivo.</p>
                     </div>
                 </div>
-                <div className="row align-items-center">
-                    <div className = "col">
-                        <h1 className = "row col">¿Que podemos hacer con el soporte remoto?</h1>
+                <div className="row align-items-center justify-content-around">
+                    <div className = "col-md-6">
+                        <h2 className = "col">¿Que podemos hacer con el soporte remoto?</h2>
                         <ul className = "letra text-left">
                             <li>Eliminación de virus y software malicioso.</li>
                             <li>Instalación y configuración de programas.</li>
@@ -40,8 +40,8 @@ export default class ServicioRemoto extends Component{
                         </ul>
                     <h4 style = {{color: '#3987f7'}}>¡Facil, Rapido y sin moverte!</h4>
                     </div>
-                    <div className = "col">
-                        <h1 className = "row col">¡Ventajas del Soporte Remoto!</h1>
+                    <div className = "col-md-6">
+                        <h2 className = "col">¡Ventajas del Soporte Remoto!</h2>
                         <ul className = "letra text-left">
                             <li>Velocidad en la atencion, esta es la principal ventaja</li>
                             <li>Flexibilidad horaria en la solución del incidente</li>

@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import '../../style/firstInfo.css'
 import Contactar from './contactar'
+import imagen from '../../assets/hero-principal.jpg'
 class FirstInfo extends Component{
     render(){
         return(   
@@ -14,7 +15,7 @@ class FirstInfo extends Component{
                 </div>
             </section>
             <div className = "col imagen-principal">
-                <img src="https://cdn.pixabay.com/photo/2016/02/07/21/03/computer-1185626_960_720.jpg" alt="imagen principal hero"/>
+                <img src={imagen} alt="imagen principal hero"/>
             </div>
         </div>
         );

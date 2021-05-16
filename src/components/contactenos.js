@@ -4,7 +4,7 @@ export default class Contactenos extends Component {
     render(){
         return(
             <div className= "container">
-                <h2 className = "col align-items-center">Contactenos</h2>
+                <h2 className = "col align-items-center">Contáctenos</h2>
                 <InformacionContacto/>
                 <div className = "jumbotron mt-4">
                     <p>También puedes contactarnos de manera inmediata 

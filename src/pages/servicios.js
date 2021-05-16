@@ -6,6 +6,10 @@ import { servicio } from '../data/servicio.json'
 
 import ServicioRemoto from '../components/infoServicio/servicio-remoto'
 import SoporteTecnico from '../components/infoServicio/soporte-tecnico'
+import Marketing from '../components/infoServicio/marketing'
+import Ecomerce from '../components/infoServicio/ecomerce'
+import Redes from '../components/infoServicio/redes'
+import SoporteNacional from '../components/infoServicio/soporte-nacional'
 
 class Servicios extends Component{
     constructor(props){
@@ -14,7 +18,11 @@ class Servicios extends Component{
             informacionIndex: 0,
             informacionCard: [
                 <ServicioRemoto/>,
-                <SoporteTecnico/>
+                <SoporteTecnico/>,
+                <Marketing/>,
+                <Ecomerce/>,
+                <Redes/>,
+                <SoporteNacional/>,
             ]
         }
 
