@@ -19,7 +19,7 @@ export default class Podcast extends Component{
         return(
             <div className='d-flex flex-row mt-4 mb-4 text-left flex-wrap justify-content-around align-items-center'>
                 <div className="col">
-                <p style={{width: '500px'}}>
+                <p className="row col">
                     Un podcast de easystem donde te hablamos de Marketing digital y tencnologia en tu idioma, sin tecnisismo, ayudando a impulsar tu negocio
                 </p>
                 <a href="https://open.spotify.com/embed/show/2sK9Oft0JzL6gEyUb6RxJO" target='_blank' rel="noreferrer">

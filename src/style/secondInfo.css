@@ -14,10 +14,11 @@
     text-align: left;
 }
 
-p {
+
+/*.letra p {
     font-weight: lighter;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+}*/
 
 p>b {
     color: #3987f7;
