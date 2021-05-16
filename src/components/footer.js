@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import logo from '../assets/logo.jpg'
 class Footer extends Component {
     actualYear(){
         var date = new Date();
@@ -11,7 +11,7 @@ class Footer extends Component {
                     style={{background: '#3987f7'}}>   
                     <div className = "col-md-4">
                         <span>
-                            <img src='https://www.easystem.co/wp-content/uploads/2021/04/cropped-Nuevo-proyecto-10-70x62.png' alt='logo footer' className = "rounded img-fluid"/>
+                            <img src={logo} alt='logo footer' style={{width: '100px'}} className = "rounded img-fluid"/>
                         </span>
                     </div>
                     <div className = "col-md-4 row justify-content-around align-items-center">

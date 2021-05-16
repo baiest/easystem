@@ -3,7 +3,7 @@ import FirstInfo from '../components/info/firstInfo'
 import SecondInfo from '../components/info/secondInfo'
 import Clientes from '../components/clientes'
 import '../style/secondInfo.css'
-import Formulario from '../components/info/formulario'
+import InformacionContacto from '../components/informacionContacto'
 
 class Principal extends Component{
     render(){
@@ -18,20 +18,7 @@ class Principal extends Component{
                         <Clientes/>
                     </div>
                  </div>
-                 <div className='row align-items-center'>
-                    <div className='col mt-4 mb-4 justify-content-center d-flex'>
-                        <Formulario/>
-                    </div>
-                    <iframe 
-                    className='col mt-4 mb-4 justify-content-center d-flex'
-                    scrolling="no"
-                    src='https://maps.google.com/maps?q=easystem&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near'
-                    title="easystem" 
-                    aria-label="easystem"
-                    height="400"
-                    width="400"
-                    style={{border: '0'}}></iframe>             
-                 </div>
+                 <InformacionContacto/>
             </div>
         );
     }

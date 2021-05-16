@@ -9,7 +9,7 @@ export default class ServicioRemoto extends Component{
                 <div className = "row servicioCell align-items-center">
                     <div className = "col">
                         <span>
-                            <img src={remoto} alt="" className = "rounded img-fluid"/>
+                            <img src={remoto} alt="Imagen ejemplo remoto" className = "rounded img-fluid"/>
                         </span>
                     </div>
                     <div className = "col letra text-left">
@@ -30,7 +30,7 @@ export default class ServicioRemoto extends Component{
                 </div>
                 <div className="row align-items-center">
                     <div className = "col">
-                        <h1 className = "row col-md-4ç">¿Que podemos hacer con el soporte remoto?</h1>
+                        <h1 className = "row col">¿Que podemos hacer con el soporte remoto?</h1>
                         <ul className = "letra text-left">
                             <li>Eliminación de virus y software malicioso.</li>
                             <li>Instalación y configuración de programas.</li>
@@ -38,7 +38,7 @@ export default class ServicioRemoto extends Component{
                             <li>Configuracion y capacitación de programas de Office, word, excel, correo electronico etc.</li>
                             <li>Tu equipo es nuevo, podemos dejar tu equipo listo para trabajar.</li>
                         </ul>
-                    <h4 style = {{color: '#548'}}>¡Facil, Rapido y sin moverte!</h4>
+                    <h4 style = {{color: '#3987f7'}}>¡Facil, Rapido y sin moverte!</h4>
                     </div>
                     <div className = "col">
                         <h1 className = "row col">¡Ventajas del Soporte Remoto!</h1>
@@ -48,7 +48,7 @@ export default class ServicioRemoto extends Component{
                             <li>No tienes que desplazarte o esperar una visita </li>
                             <li>No esperes mas y contacta con nosotros para dar solución a tus incidentes</li>
                         </ul>
-                        <h4 style = {{color: '#548'}}>¡No esperes mas y contacta con nosotros para dar solución a tus incidentes!</h4>
+                        <h4 style = {{color: '#3987f7'}}>¡No esperes mas y contacta con nosotros para dar solución a tus incidentes!</h4>
                     </div>
                 </div>
             </Fragment>

@@ -8,6 +8,8 @@ import Principal from './pages/principal'
 import Servicios from './pages/servicios'
 import Nosotros from './pages/nosotros'
 import Tarifas from './pages/tarifas'
+import Podcast from './pages/podcast'
+import Error404 from './components/error404'
 
 function App() {
   return (
@@ -25,6 +27,10 @@ function App() {
           component = {Nosotros}/>
           <Route exact path = '/contactenos'
           component = {Contactenos}/>
+          <Route exact path = '/podcast'
+          component = {Podcast}/>
+          <Route exact path = '*'
+          component = {Error404}/>
         </Switch>
       </div>
       <Footer/>

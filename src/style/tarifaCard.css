@@ -11,20 +11,17 @@
     justify-content: center;
 }
 
-
 .tarifa-card h3 {
     font-size: 25px;
 }
 
+.tarifa-card.card-animation:hover {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 @media screen and (min-width: 992px) {
-    .card-animation:hover {
-        margin: 0;
-        margin-left: 5%;
-        margin-right: 5%;
-        z-index: 1;
-    }
     .tarifa-card {
         margin-bottom: 100px;
-        
     }
 }

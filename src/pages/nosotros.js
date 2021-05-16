@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import Contactar from '../components/info/contactar'
 import '../style/nosotros.css'
 import misionVision from '../assets/mision-vision.jpg'
-import {empleado} from '../data/empleado.json';
+import {empleado} from '../data/empleado.json'
+import logo from '../assets/logo.jpg'
 
 export default class Nosotros extends Component {
 
@@ -49,7 +50,7 @@ export default class Nosotros extends Component {
                             return(
                             <div key = {key} className ="col-md-4 mt-5 text-center h-100">
                                 <div className = "card text-white bg-dark m-3">
-                                    <img className = "card-img-top align-items-center img-fluid" alt={`empleado ${key}`} src={emp.imagen || "https://www.easystem.co/wp-content/uploads/2021/04/cropped-Nuevo-proyecto-10-70x62.png"}/>
+                                    <img className = "card-img-top align-items-center img-fluid" alt={`empleado ${key}`} src={emp.imagen || logo}/>
                                     <div className="card-body bg-dark" alt ="">
                                         <h3 className="card-text">{emp.nombre}</h3>
                                         <p className ="card-text text-left letra">{emp.descripcion}</p>

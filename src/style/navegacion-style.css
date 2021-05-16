@@ -12,12 +12,18 @@ nav a:hover {
     flex-grow: unset;
 }
 
-@media screen and (max-width: 992px) {
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 980px) {
     h1 {
         font-size: 1.5rem;
     }
     .opciones:hover {
-        background-color: #648;
+        background-color: #f56b5d;
+        color: white;
     }
     .social img {
         width: 10%;
@@ -28,7 +34,7 @@ nav a:hover {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 320px) {
     .opciones:after {
         content: '';
         display: block;
@@ -38,9 +44,11 @@ nav a:hover {
     }
     .opciones:hover::after {
         background-color: #f56b5d;
+        color: white;
         width: 100%;
     }
     .social {
+        margin-top: 20px;
         width: 250px;
         display: flex;
     }
