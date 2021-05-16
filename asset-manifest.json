@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/easystem/static/css/main.687e0d18.chunk.css",
-    "main.js": "/easystem/static/js/main.0df46c46.chunk.js",
-    "main.js.map": "/easystem/static/js/main.0df46c46.chunk.js.map",
-    "runtime-main.js": "/easystem/static/js/runtime-main.b854cf25.js",
-    "runtime-main.js.map": "/easystem/static/js/runtime-main.b854cf25.js.map",
+    "main.css": "/easystem/static/css/main.2d18f087.chunk.css",
+    "main.js": "/easystem/static/js/main.cc51cfdc.chunk.js",
+    "main.js.map": "/easystem/static/js/main.cc51cfdc.chunk.js.map",
+    "runtime-main.js": "/easystem/static/js/runtime-main.51668591.js",
+    "runtime-main.js.map": "/easystem/static/js/runtime-main.51668591.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/easystem/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.b03acc2a.chunk.js": "/easystem/static/js/2.b03acc2a.chunk.js",
-    "static/js/2.b03acc2a.chunk.js.map": "/easystem/static/js/2.b03acc2a.chunk.js.map",
-    "static/js/3.e4742820.chunk.js": "/easystem/static/js/3.e4742820.chunk.js",
-    "static/js/3.e4742820.chunk.js.map": "/easystem/static/js/3.e4742820.chunk.js.map",
+    "static/js/2.773be1a8.chunk.js": "/easystem/static/js/2.773be1a8.chunk.js",
+    "static/js/2.773be1a8.chunk.js.map": "/easystem/static/js/2.773be1a8.chunk.js.map",
     "index.html": "/easystem/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/easystem/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.687e0d18.chunk.css.map": "/easystem/static/css/main.687e0d18.chunk.css.map",
-    "static/js/2.b03acc2a.chunk.js.LICENSE.txt": "/easystem/static/js/2.b03acc2a.chunk.js.LICENSE.txt",
-    "static/media/compu.040a046f.jpg": "/easystem/static/media/compu.040a046f.jpg",
+    "static/css/main.2d18f087.chunk.css.map": "/easystem/static/css/main.2d18f087.chunk.css.map",
+    "static/js/2.773be1a8.chunk.js.LICENSE.txt": "/easystem/static/js/2.773be1a8.chunk.js.LICENSE.txt",
+    "static/media/hero-principal.364c6096.jpg": "/easystem/static/media/hero-principal.364c6096.jpg",
     "static/media/instagram.d6b83586.png": "/easystem/static/media/instagram.d6b83586.png",
-    "static/media/logo.5f54874c.jpg": "/easystem/static/media/logo.5f54874c.jpg",
-    "static/media/remoto.b1add382.jpg": "/easystem/static/media/remoto.b1add382.jpg"
+    "static/media/marketing.ea9ea1c0.jpg": "/easystem/static/media/marketing.ea9ea1c0.jpg",
+    "static/media/redes.15488c13.jpg": "/easystem/static/media/redes.15488c13.jpg",
+    "static/media/remoto.b1add382.jpg": "/easystem/static/media/remoto.b1add382.jpg",
+    "static/media/servicio-remoto.78c06d00.jpeg": "/easystem/static/media/servicio-remoto.78c06d00.jpeg",
+    "static/media/soporte-tecnico.ca9007bc.jpg": "/easystem/static/media/soporte-tecnico.ca9007bc.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b854cf25.js",
+    "static/js/runtime-main.51668591.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.b03acc2a.chunk.js",
-    "static/css/main.687e0d18.chunk.css",
-    "static/js/main.0df46c46.chunk.js"
+    "static/js/2.773be1a8.chunk.js",
+    "static/css/main.2d18f087.chunk.css",
+    "static/js/main.cc51cfdc.chunk.js"
   ]
 }
