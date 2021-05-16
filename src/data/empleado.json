@@ -1,21 +1,25 @@
 {
     "empleado": [{
             "nombre": "Andres Hernandez",
+            "cargo": "Fundador y CEO de EASYSTEM",
             "descripcion": "Fundador y CEO de EASYSTEM, especialista en soporte, un convencido del emprendimiento y amante de nuevas herramientas",
             "imagen": "https://www.easystem.co/wp-content/uploads/2021/05/Andres-Hernandez-CEO-easystem-768x830.jpg"
         },
         {
             "nombre": "Andrea Ceballos",
+            "cargo": "Coordinadora Operativa",
             "descripcion": "Especializada en impresoras Lexmark, me gustá viajar, conocer lugares industriales y me encantan los gatos",
             "imagen": "https://www.easystem.co/wp-content/uploads/2021/05/Andrea-Ceballos-Soporte-easystem-768x798.jpg"
         },
         {
             "nombre": "Natalia Caicedo",
-            "descripcion": "Especializada en impresoras Lexmark, me gustá viajar, conocer lugares industriales y me encantan los gatos",
+            "cargo": "Directora Creativa",
+            "descripcion": "Especialista en estrategias de mercadeo, se destaca por su creatividad, amabilidad y empatia, además de ser sumamente divertida",
             "imagen": "https://www.easystem.co/wp-content/uploads/2021/05/Natalia-Caicedo-Directora-Creativa-easystem-.jpg"
         },
         {
             "nombre": "Tatiana Cardenas",
+            "cargo": "Administrativa",
             "descripcion": "Administrativa, me encargo que todo les fluya, organizo el equipo y respondo correos, adoro los gaticos",
             "imagen": "https://www.easystem.co/wp-content/uploads/2021/05/Tatiana-Cardenas-Administrativa-easystem.jpg"
         }

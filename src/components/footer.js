@@ -1,17 +1,12 @@
 import React, { Component } from 'react'
 import logo from '../assets/logo.jpg'
-class Footer extends Component {
-    actualYear(){
-        var date = new Date();
-        return date.getFullYear();
-    }
+export default class Footer extends Component {
     render(){
         return(
-            <footer className = "p-4 row col m-auto page-footer text-white justify-content-center align-items-center"
-                    style={{background: '#3987f7'}}>   
+            <footer className="text-white">   
                     <div className = "col-md-4">
                         <span>
-                            <img src={logo} alt='logo footer' style={{width: '100px'}} className = "rounded img-fluid"/>
+                            <img src={logo} alt='logo footer' style={{width: '80px'}} className = "rounded img-fluid"/>
                         </span>
                     </div>
                     <div className = "col-md-4 row justify-content-around align-items-center">
@@ -49,11 +44,10 @@ class Footer extends Component {
                     </div>
                     <br/>
                     <div className = "col-md-4">
-                        © {this.actualYear()} EASYSTEM hecho por Juan con ♥
+                        © {new Date().getFullYear()} EASYSTEM hecho por <a className="text-white"
+                        href="https://twitter.com/jbaiest" target="_blank" rel="noreferrer">Juan</a> con ♥
                     </div>
             </footer>
         );
     }
 }
-
-export default Footer;

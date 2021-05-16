@@ -15,7 +15,7 @@ export default class Navegacion extends Component{
             className ="navbar navbar-expand-lg d-flex justify-content-around align-items-center"
             >
                 <Link to="/" className='d-flex align-items-center'>
-                    <img className='navbar-toggle-icon mr-2' src={logo} style={{width: '70px'}} alt="logo-empresa"/>
+                    <img className='navbar-toggle-icon mr-2' src={logo} style={{width: '50px'}} alt="logo-empresa"/>
                     <h1>{this.props.nombre}</h1>
                 </Link>
                 

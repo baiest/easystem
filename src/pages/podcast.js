@@ -23,7 +23,7 @@ export default class Podcast extends Component{
                     Un podcast de easystem donde te hablamos de Marketing digital y tencnologia en tu idioma, sin tecnisismo, ayudando a impulsar tu negocio
                 </p>
                 <a href="https://open.spotify.com/embed/show/2sK9Oft0JzL6gEyUb6RxJO" target='_blank' rel="noreferrer">
-                <span><img src={logoSpotify} style={{width: '50px'}} alt="spotify logo" /></span>easypodcast</a>
+                <span><img src={logoSpotify} style={{width: '50px'}} alt="spotify logo" /></span>easypodcast.</a>
                 </div>
                 <iframe title='easypodcast' src="https://open.spotify.com/embed/show/2sK9Oft0JzL6gEyUb6RxJO" width="600px" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
            </div>

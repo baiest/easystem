@@ -9,7 +9,7 @@ export default class Contactenos extends Component {
                 <div className = "jumbotron mt-4">
                     <p>También puedes contactarnos de manera inmediata 
                         vía WhatsApp o a los
-                        numero 3163681714 – 3164553845</p>
+                        número 3163681714 – 3164553845</p>
                 </div>
             </div>
         );

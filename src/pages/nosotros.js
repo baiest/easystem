@@ -39,17 +39,18 @@ export default class Nosotros extends Component {
                     </div>
                 </div>
                 <hr className = "row"/>
-                <div className = "row align-items-center justify-content-center">
+                <div className = "row align-items-center justify-content-center align-items-center">
                     <h1 className = "display-4 col-md-12">EASYSTEM SOLUCIONES</h1>
                     <h1 className = "display-6 col-md-12">Contacta ahora</h1>
                     <Contactar className = "col-md-12"/>
                 </div>
                 
-                <div className ="row empleado justify-content-center">
+                <div className ="d-flex flex-wrap empleado justify-content-center align-items-center">
                     {empleado.map((emp, key) => {
                             return(
-                            <div key = {key} className ="col-md-4 mt-5 text-center h-100">
-                                <div className = "card text-white bg-dark m-3">
+                            <div key = {key} className ="mt-5 text-center m-3">
+                                <div className = "d-flex card p-0 text-white" style={{width: '350px', height: '610px'}}>
+                                    <span className="card-title text-left text-dark ml-2">{emp.cargo}</span>
                                     <img className = "card-img-top align-items-center img-fluid" alt={`empleado ${key}`} src={emp.imagen || logo}/>
                                     <div className="card-body bg-dark" alt ="">
                                         <h3 className="card-text">{emp.nombre}</h3>
@@ -88,7 +89,7 @@ export default class Nosotros extends Component {
                 </div>
                 <hr className = "row"/>
                 <h2>¿Por qué elegirnos?</h2>
-                <ul className = "row nosotrosCell p-3 justify-content-center">
+                <ul className = "row d-flex nosotrosCell p-3 justify-content-center align-items-center">
                     <ul className="col-md-4">
                         <h4>La Mejor Calidad</h4>
                         <p>Nuestros servicios finalizan con tu satisfacción, sin importar el tiempo requerido</p>
